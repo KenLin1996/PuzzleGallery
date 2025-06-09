@@ -60,7 +60,7 @@
       class="h-[40vh] flex flex-col items-center justify-center text-center bg-[#f5e1c3] mt-12 rounded-t-3xl shadow-inner"
     >
       <h2 class="text-4xl font-bold text-[#b58900] mb-4 animate-fade-in">
-        來看看我的拼圖收藏吧！
+        準備好挑戰更多拼圖了嗎？
       </h2>
       <q-btn
         color="primary"

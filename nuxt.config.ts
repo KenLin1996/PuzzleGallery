@@ -5,7 +5,10 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "nuxt-quasar-ui",
     "@pinia/nuxt",
+    "@vueuse/nuxt",
+    "@hypernym/nuxt-anime",
     "@vueuse/motion/nuxt",
+    "@nuxt/image",
   ],
   css: [
     "quasar/dist/quasar.prod.css",
@@ -13,26 +16,5 @@ export default defineNuxtConfig({
   ],
   build: {
     transpile: ["quasar"],
-  },
-
-  runtimeConfig: {
-    public: {
-      motion: {
-        directives: {
-          "pop-bottom": {
-            initial: {
-              scale: 0,
-              opacity: 0,
-              y: 100,
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              y: 0,
-            },
-          },
-        },
-      },
-    },
   },
 });
